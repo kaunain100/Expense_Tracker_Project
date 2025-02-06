@@ -74,5 +74,5 @@ summary = (f"Financial Health Summary for {name}:\n"
            f"Savings Goal: {goal}%\n"
            f"Status: {goal - savings_percentage:.2f}% away from your goal.\n")
 
-# Displaying and exporting summary to a text file
+# Displaying the summary
 print(summary)
